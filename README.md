@@ -3,22 +3,25 @@
 **Task 1: Simple URL Shortener**  
 **CodeAlpha Backend Development Internship**
 
-## 📋 عن المشروع
-تطبيق URL Shortener بسيط وقوي مبني بـ Flask (Python).  
-يحول أي رابط طويل إلى رابط قصير ويعمل Redirect تلقائي للرابط الأصلي.
+## About the Project
+A simple and powerful URL Shortener web application built with Flask (Python).  
+It converts long URLs into short codes and redirects users to the original URL instantly.
 
-## ✨ المميزات
-- توليد كود قصير عشوائي (6 أحرف)
-- حفظ الروابط في قاعدة بيانات SQLite
-- Redirect فوري للرابط الأصلي
-- واجهة أمامية أنيقة مع خلفية متحركة
-- دعم تغيير اللغة (عربي / English)
+## Features
+- Generates random short codes (6 characters)
+- Stores URL mappings in SQLite database
+- Instant redirect to the original long URL
+- Modern and clean user interface with animated background
+- Language switch support (Arabic / English)
 
-## 🛠️ التقنيات المستخدمة
-- Backend: Flask (Python)
-- Database: SQLite
+## Technologies Used
+- **Backend**: Flask (Python)
+- **Database**: SQLite
 
-## 🚀 طريقة التشغيل
-1. شغل المشروع محلياً:
+## How to Run
+
+1. Run the project locally:
    ```bash
    python app.py
+ 2.  Open your browser and go to:
+http://127.0.0.1:5000
